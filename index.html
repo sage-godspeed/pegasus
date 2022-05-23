@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Godson Njoku | About Me</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body >
+    <div class="container">
     <!--navigation bar-->     
-    <header class="scaffold, navigation">
+    <header class="navigation">
         <!-- webpage logo-->
         <div class="logo">
           <a href="./index.html"><img src="https://github.com/sage-godspeed/image-dump/blob/master/origami-logo.png?raw=true" alt="logo"></a>
         </div>
 
         <!-- navigation bar -->
-        <nav>
+        <nav class="">
           <ul>
           <li><a href=".index.html">About</a></li>
           <li><a href="./src/calculator.html">Calculator</a></li>
@@ -30,72 +35,85 @@
 <main>
     
     <!-- Hero Section -->
-    <section>
+    <section class="hero">
        <!-- avatar -->
-        <img src="" alt="">
+        <img src="https://pbs.twimg.com/profile_images/1518580625023901699/-Iyqi1mr_400x400.jpg" alt="A photo of Godson" class="avatar">
   
         <!--- Hero Section Content -->
         <h1>Godson Njoku</h1>
-            <p>Hi there! I am a product operater with 3 years of experience in product management and a background in product design and economics. I lead product development teams to research, design and create wonderful experiences (products) for humans and organizations. <br> <br> My goal for enrolling into Alt School is to extend my skillset and explore a career path in Cloud Engineering.</p>
+            <p>Hi there! I am a  Product Mangager with 3 years of experience and a background in product design and economics. I lead product development teams to research, design and create wonderful experiences (products) for everyday people and organizations. <br> <br> My goal for enrolling into Alt School is to extend my skillset and explore a career path in Cloud Engineering.</p>
   
         <!-- Learn More Button -->
-      <button>Learn More <span></span></button>
+      <div class="button">
+        <a href="#portfolio" class="btn btn-primary">Learn More <span></span></a>
+      </div>
+      
   
     </section>
 
     <!-- Experiences Section -->
-    <section>
+    <section class="experience" id="portfolio">
 
     <!--heading-->
-      <h2>Professional Experience</h2>
+      <h2 class="title">Professional Experience</h2>
 
       <!-- Section Content -->
   
-      <div>
-        <div><img src="" alt=""></div>
-        <h4><span>Product Manager</span> - Netguru, Poland</h4>
-        <p>Jan 2022 - recent.</p>
+      <div class="exp-content">
+          <div class="exp scaffold">
+            <div class="brand"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQH4aOEOkPDt8w/company-logo_100_100/0/1653034640010?e=1661385600&v=beta&t=BC_BthMijKupRBQwKfv-LPFn5xyCn1s_x_IioW8_eSQ" alt="company logo"></div>
+            <div class="desc">
+                <h4><span>Product Manager</span> - Netguru, Poland</h4>
+                <p>Jan 2022 - recent.</p>
+            </div>
+
+          </div>
+      
+          <div class="exp scaffold">
+            <div class="brand"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQE_mh8_N6nujQ/company-logo_100_100/0/1629023461440?e=1661385600&v=beta&t=7yAU30Q2b0AVT_Svvav6LKUpmcX_7DKuC84WkuUTXb8" alt="company logo"></div>
+            <h4><span>Product Lead</span> - Varscon, Global.</h4>
+            <p>August 2020 - February 2022.</p>
+          </div>
+      
+          <div class="exp scaffold">
+            <div class="brand"><img src="https://github.com/sage-godspeed/image-dump/blob/master/origami-logo.png?raw=true" alt="company logo"></div>
+            <h4><span>Product Manager</span> - DF Digital, Hong Kong.</h4>
+            <p>April 2021 - October 2021.</p>
+          </div>
+      
+          <div class="exp scaffold">
+            <div class="brand"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQH6FT-48jdlVQ/company-logo_100_100/0/1528995437625?e=1661385600&v=beta&t=4WRESntrdv1iq0hPdd2JyyTlicr79giXHK-jdT_qw68" alt="company logo"></div>
+            <h4><span>Product Designer</span> - Genesys Tech Hub, Enugu.</h4>
+            <p>July 2020 - February 2021.</p>
+          </div>
+    
+        <!-- Education Section -->
+        <section class="edu">
+    
+            <!--heading -->
+            <h2 class="title">Education</h2>
+      
+            <!-- Section Content -->
+            <div>
+              <div><img src="" alt=""></div>
+              <h4>University of Nigeria Nsukka</h4>
+              <p>Bachelor of Science</p>
+              <p>2015 - 2019</p>
+              <p>Also, successfully completed digital courses for building knowledge & skillset, career development and growth. Please find my certifications repo here.</p>
+            </div>
+        
+          </section>
+    
       </div>
-  
-      <div>
-        <div><img src="" alt=""></div>
-        <h4><span>Product Lead</span> - Varscon, Global.</h4>
-        <p>August 2020 - February 2022.</p>
-      </div>
-  
-      <div>
-        <div><img src="" alt=""></div>
-        <h4><span>Product Manager</span> - DF Digital, Hong Kong.</h4>
-        <p>April 2021 - October 2021.</p>
-      </div>
-  
-      <div>
-        <div><img src="" alt=""></div>
-        <h4><span>Product Designer</span> - Genesys Tech Hub, Enugu.</h4>
-        <p>July 2020 - February 2021.</p>
+      <!-- Download Resume Btn -->
+      <div class="button">
+        <button class="btn btn-secondary">Download Resume <span></span></button>
       </div>
 
-      <!-- Download Resume Btn -->
-      <button>Learn More <span></span></button>
       
     </section>
     
-    <!-- Education Section -->
-    <section>
 
-      <!--heading -->
-      <h2>Education</h2>
-
-      <!-- Section Content -->
-      <div>
-        <div><img src="" alt=""></div>
-        <h4><span>Product Manager</span> - Netguru, Poland</h4>
-        <p>Bachelor of Science</p>
-        <p>2015 - 2019</p>
-        <p>Also, successfully completed digital courses for building knowledge & skillset, career development and growth. Please find my certifications repo here.</p>
-      </div>
-  
-    </section>
     
     <!-- Contact Me Section -->
     <section>
@@ -108,6 +126,11 @@
 
         <!-- contact form with full name, email, priority level and message body -->
         <div>
+
+        <div>
+            <h3>Contact Me</h3>
+        </div>
+
           <form action="">
             <label for="fullname">Full Name</label><br>  
             <input type="text" id="fullname" name="fullname" placeholder="John Glue" required><br>
@@ -148,7 +171,7 @@
     <a href="#">Scroll to Top</a>
   
   </footer>
-    
+    </div>
   <script src="./script.js"></script>
  
 </body>
