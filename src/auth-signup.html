@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth - Sign In</title>
+    <link rel="shortcut icon" type="image/jpg" href="./favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e77062d6d5.js"></script>
+</head>
+<body>
+     <!--navigation bar-->     
+     <header class="navigation">
+      <!-- webpage logo-->
+      <div class="logo">
+        <a href="./index.html"><img src="https://github.com/sage-godspeed/image-dump/blob/master/origami-logo.png?raw=true" alt="logo"></a>
+      </div>
+
+      <!-- navigation bar -->
+      <nav class="">
+        <ul>
+        <li><a href="../index.html">About</a></li>
+        <li><a href="../src/calculator.html">Calculator</a></li>
+        <li><a href="../src/auth-signin.html">Sign In</a></li>
+        <li><a href="../src/auth-signup.html">Sign Up</a></li>
+        </ul>
+      </nav>
+
+  </header>
+  
+<!-- main content -->
+    <main class="container-box">
+      <section class="contact">
+  
+        <div class="">
+  
+          <div class="xp">
+           
+              <form class="mailer auth" action="">
+                  <div>
+                      <h5 class="sub-title">Sign Up</h5>
+                      <h6 class="heading">Enter your details to continue</h6>
+                  </div>
+                  <label for="fname">First Name</label><br>  
+                <input type="text" id="firstname" name="firstname" placeholder="John" required>
+      
+                <label for="lname">Last Name</label><br>  
+                <input type="text" id="lastname" name="lastname" placeholder="Glue" required><br>
+      
+                <label for="phone">Phone Number</label><br>  
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required><br>
+                
+                <label for="gender">Choose Gender</label><br>  
+                <select name="Select Gender"  id="gender" required>
+                  <option value="female">Female</option>
+                  <option value="male">Male</option>
+                  <option value="pnts">Prefer not to say</option>
+                </select><br>
+      
+                <label for="country">Country</label><br>  
+                <input type="text" id="country" name="country" placeholder="Country" required><br>
+      
+                <label for="state">State/Province</label><br>  
+                <input type="text" id="state" name="state" placeholder="State/Province" required><br>
+      
+                <label for="username">Username</label><br>  
+                <input type="text" id="username" name="username" placeholder="Username"><br>
+      
+                <label for="password1">Password</label><br>  
+                <input type="password" id="password1" name="password" placeholder="Enter Password"><br>
+      
+                <label for="password2">Confirm Password</label><br>  
+                <input type="password" id="password2" name="confirm-password" placeholder="Re-enter password"><br>
+      
+      
+                  <!-- Sign In Btn -->
+                  <div id="send" class="button">
+                      <input type="submit" class="btn btn-primary" value="Sign Up" id="send-btn">
+                  </div>
+                </form>
+              </div>
+          </div>
+            
+        </div>
+      </section>
+
+     </main>  
+    <!-- Footer -->
+  <footer>
+
+  
+  </footer>
+        
+    <script src="./script.js"></script>
+    
+</body>
+</html>
+      
+
+  
