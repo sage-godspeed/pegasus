@@ -14,6 +14,22 @@ body {
     height: 100%;
     width: 100%;  
 }
+a {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Section Heading Styling */
+.title {
+    text-transform: uppercase;
+    color: #272832;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    margin: 40px;
+    padding: 24px;
+}
 
 /* button styling */
 .button {
@@ -22,7 +38,6 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: 18px;
-    margin-top: 48px;
     padding: 60px 16px 16px 16px;
 
 }
@@ -39,13 +54,24 @@ body {
 .btn-secondary {
     background-color: #272832;
 }
+/* button group styling */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+}
+.btn-group .btn {
+    display: inline;
+    width: 250px;
+}
 
 /* navigation bar styling rules */
 header {
     background-color: #161616;
     padding: 10px 60px;
     display: flex;
-    
 }
 
 /* logo styling */
@@ -129,55 +155,107 @@ li > a:hover {
     margin-bottom: 48px;
     width: 85%;
 }
-.btn .btn-primary {
+.hero .btn .btn-primary {
     margin: 24px;
+    margin-top: 48px;
+}
+.hero .btn > span {
+    margin-left: 16px;
 }
 
+/* Experience & Education Section */
 
-
-
-
-/* Section Heading Styling */
-.title {
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 32px;
-    text-align: center;
-}
-
-/* Experience Section */
-
-.experience {
+.Portforlio {
     margin: auto;
     padding: 48px;
 }
-.exp {
+.xp-content {
+    
+    align-items: center;
+    justify-content: center;
+}
+.xp {
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
     line-height: 18px;
-    text-align: justify;
-    align-content: center;
-    padding: 48px;
-    margin: auto;
-    width: 50%;
-    
-}
-.exp-content {
-    display: inline;
-}
-.exp-content > .desc {
     display: flex;
+    padding: 12px 48px;
+    margin: 48px auto;    
+    width: 35%;
 }
+
+.xp .disc {
+    display: block;
+    width: 85%;
+    margin-left: 8%;
+
+}
+.disc h4 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    word-spacing: normal;
+    text-align: justify;
+    margin: 8px;
+    margin-top: 12px;;
+ 
+}
+.disc h4 span {
+    font-weight: 500;
+    font-style: normal;
+}
+.disc p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: justify;
+    margin: 2px 8px;
+}
+/* organization image */
 .brand img {
     display: flex;
     width: 75px;
     height: 75px;
     border: 100%;
+    vertical-align: middle;
+}
+/* education modal styling specifics */
+.edu {
+    background-color: #D9D9D9;
+    width: 750px;
+    padding: 1px;
+    margin: 48px auto;
+    border-radius: 4px;
+}
+#edu {
+    width: 80%;
+    height: 200px;
+    padding-bottom: 48px;
+}
+#edu #uni {
+    display: flex;
+    margin-top: 16px;
+    width: 85px;
+    height: 75px;
+}
+#edu-sect > h2 {
+    font-weight: 500;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+#edu > h4 {
+    font-weight: 500;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
 }
 
-/* Education Section */
+#edu .disc > .degree {
+    font-weight: 500;
+    font-size: 14px;
+}
 
 
 

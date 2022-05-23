@@ -4,10 +4,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Godson Njoku | About Me</title>
+    <link rel="shortcut icon" type="image/jpg" href="./favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e77062d6d5.js"></script>
 
 </head>
 <body >
@@ -45,70 +48,86 @@
   
         <!-- Learn More Button -->
       <div class="button">
-        <a href="#portfolio" class="btn btn-primary">Learn More <span></span></a>
+        <a href="#portfolio" class="btn btn-primary">Learn More <span><i class="fa fa-long-arrow-down" aria-hidden="true"></i></span></a>
       </div>
       
   
     </section>
 
     <!-- Experiences Section -->
-    <section class="experience" id="portfolio">
+    <section class="portfolio" id="portfolio">
 
     <!--heading-->
       <h2 class="title">Professional Experience</h2>
 
       <!-- Section Content -->
   
-      <div class="exp-content">
-          <div class="exp scaffold">
+      <div class="xp-content">
+          <div class="xp">
             <div class="brand"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQH4aOEOkPDt8w/company-logo_100_100/0/1653034640010?e=1661385600&v=beta&t=BC_BthMijKupRBQwKfv-LPFn5xyCn1s_x_IioW8_eSQ" alt="company logo"></div>
-            <div class="desc">
-                <h4><span>Product Manager</span> - Netguru, Poland</h4>
+            <div class="disc">
+                <h4><span>Product Manager</span> - Netguru, Poland.</h4>
                 <p>Jan 2022 - recent.</p>
             </div>
 
           </div>
       
-          <div class="exp scaffold">
+          <div class="xp">
             <div class="brand"><img src="https://media-exp1.licdn.com/dms/image/C4E0BAQE_mh8_N6nujQ/company-logo_100_100/0/1629023461440?e=1661385600&v=beta&t=7yAU30Q2b0AVT_Svvav6LKUpmcX_7DKuC84WkuUTXb8" alt="company logo"></div>
-            <h4><span>Product Lead</span> - Varscon, Global.</h4>
-            <p>August 2020 - February 2022.</p>
+            <disc class="disc">
+                <h4><span>Product Lead</span> - Varscon, Global.</h4>
+                <p>August 2020 - February 2022.</p>
+            </disc>
           </div>
       
-          <div class="exp scaffold">
-            <div class="brand"><img src="https://github.com/sage-godspeed/image-dump/blob/master/origami-logo.png?raw=true" alt="company logo"></div>
-            <h4><span>Product Manager</span> - DF Digital, Hong Kong.</h4>
-            <p>April 2021 - October 2021.</p>
+          <div class="xp">
+            <div class="brand"><img src="https://github.com/sage-godspeed/image-dump/blob/master/noun-company.png?raw=true" alt="company logo. image credits: Company by Mada Creative from NounProject.com"></div>
+            <div class="disc">
+                <h4><span>Product Manager</span> - DF Digital, Hong Kong.</h4>
+                <p>April 2021 - October 2021.</p>
+            </div>
           </div>
       
-          <div class="exp scaffold">
+          <div class="xp">
             <div class="brand"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQH6FT-48jdlVQ/company-logo_100_100/0/1528995437625?e=1661385600&v=beta&t=4WRESntrdv1iq0hPdd2JyyTlicr79giXHK-jdT_qw68" alt="company logo"></div>
-            <h4><span>Product Designer</span> - Genesys Tech Hub, Enugu.</h4>
-            <p>July 2020 - February 2021.</p>
+           <div class="disc">
+                <h4><span>Product Designer</span> - Genesys Tech Hub, Enugu.</h4>
+                <p>July 2020 - February 2021.</p>
+           </div>
           </div>
-    
+
+     <!-- Linkedin Profile & Download Resume Btn -->
+     <div class="btn-group">
+        <div class="button">
+            <a href="#" class="btn btn-secondary">LinkedIn Profile</a>
+        </div>
+        <div class="button">
+            <a href="#" class="btn btn-primary">Download Resume</a>
+        </div>
+      </div>
+
         <!-- Education Section -->
-        <section class="edu">
+    
+        <section class="edu " id="edu-sect">
     
             <!--heading -->
             <h2 class="title">Education</h2>
       
             <!-- Section Content -->
-            <div>
-              <div><img src="" alt=""></div>
-              <h4>University of Nigeria Nsukka</h4>
-              <p>Bachelor of Science</p>
-              <p>2015 - 2019</p>
-              <p>Also, successfully completed digital courses for building knowledge & skillset, career development and growth. Please find my certifications repo here.</p>
+            <div class="xp" id="edu">
+              <div><img src="https://github.com/sage-godspeed/image-dump/blob/master/uni.png?raw=true" alt="University Logo" id="uni" class=""></div>
+              <div class="disc">
+                <h4>University of Nigeria Nsukka</h4>
+                <p class="degree">Bachelor of Science</p>
+                <p>2015 - 2019</p> 
+                <p>Also, successfully completed digital courses for building knowledge & skillset, career development and growth. Please find my certifications repo <a href="https://docs.google.com/presentation/d/1YYs9JD-03GIX5vIfmCOJgOUMEz720OPZjVDK6_HgSSU/edit?usp=sharing">here</a>.</p>
+              </div>
             </div>
         
           </section>
     
       </div>
-      <!-- Download Resume Btn -->
-      <div class="button">
-        <button class="btn btn-secondary">Download Resume <span></span></button>
-      </div>
+     
 
       
     </section>
@@ -116,7 +135,7 @@
 
     
     <!-- Contact Me Section -->
-    <section>
+    <section class="contact">
   
       <div>
         <!-- cover image -->
