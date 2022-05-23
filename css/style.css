@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+
+/* visual helper class */
+.scaffold {
+    border: 0.5px red solid;
+   
+}
+
 /* general styling rules */
 body {
     background-color: #fff;
@@ -30,6 +37,16 @@ a {
     margin: 40px;
     padding: 24px;
 }
+.sub-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 16px;
+    padding: 8px;
+    color: #272832;
+}
 
 /* button styling */
 .button {
@@ -38,7 +55,7 @@ a {
     font-style: normal;
     font-weight: 300;
     line-height: 18px;
-    padding: 60px 16px 16px 16px;
+    padding: 50px 16px 16px 16px;
 
 }
 .btn {
@@ -165,9 +182,9 @@ li > a:hover {
 
 /* Experience & Education Section */
 
-.Portforlio {
+.Portfolio {
     margin: auto;
-    padding: 48px;
+    padding: 32px;
 }
 .xp-content {
     
@@ -197,7 +214,7 @@ li > a:hover {
     font-weight: 400;
     line-height: 18px;
     word-spacing: normal;
-    text-align: justify;
+    text-align: le;
     margin: 8px;
     margin-top: 12px;;
  
@@ -256,13 +273,100 @@ li > a:hover {
     font-weight: 500;
     font-size: 14px;
 }
+.contact {
+    background-color: #FDB87D;
+    min-height: 600px;
+}
+/* contact me form styling */
+.contact {
+    margin: auto;
+    padding: 32px;
+}
 
+form {
+    width: 85%;
+    margin: auto;
+}
 
+.mailer label{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 16px;
+    margin-top: 8px;
+    padding: 24px 8px;
+    margin-top: 24px;
+    color: #525252;
+}
+.mailer input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 8px;
+    margin: 12px 0;
+}
 
+#compose {
+    padding-bottom: 150px;
+}
+#send {
+    padding-top: 12px;
+}
+#send-btn{
+    width: 150px;
+    padding: 8px;
+}
 
-
-/* visual helper class */
-.scaffold {
-    border: 0.5px red solid;
-   
+.mailer select {
+    padding: 8px;
+    margin: 8px 0;
+}
+select {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  padding: 0 1em 0 0;
+  margin: 0;
+  position: relative;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  display: grid;
+  grid-template-areas: "select";
+  align-items: center;
+}
+.select::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: #000;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    justify-self: end;
+}
+select, .select:after {
+  grid-area: select;
+}
+select:focus + .focus {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: none;
+    border-radius: inherit;
+}
+footer {
+    height: 150px;
+    background-color: #272832;
+    display: flex;
+    padding: 24px;
+    
+}
+footer .top {
+    display: inline;
+    color: #fff;
+    margin: 24px;
+    padding-left: 80%;
 }

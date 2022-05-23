@@ -137,42 +137,44 @@
     <!-- Contact Me Section -->
     <section class="contact">
   
-      <div>
-        <!-- cover image -->
-        <div>
-          <img src="" alt="">
+      <div class="">
+
+        <div class="xp">
+         
+            <form class="mailer" action="">
+                <div>
+                    <h5 class="sub-title">Contact Me</h5>
+                </div>
+                <label for="fullname">Full Name</label><br>  
+                <input type="text" id="fullname" name="fullname" placeholder="John Glue" required><br>
+                
+                <label for="email">Email Address</label><br>  
+                <input type="text" id="email-address" name="email" placeholder="john@theglue.com" required><br>
+                
+                <label for="priority">Choose Priority</label><br>
+                <div class="dropdown">
+                    <select name="Select Priority"  id="priority" required>
+                    <option value="zero">Not Urgent</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                    <option value="astro">Astronomical</option>
+                    <span class="focus"></span>
+                    </select><br>
+                    
+                </div>
+      
+                <label for="message" >Message</label><br>  
+                <input id="compose" type="text" id="message" name="message" placeholder="Enter text..."><br>
+    
+                <!-- Send Message Btn -->
+                <div id="send" class="button">
+                    <input type="submit" class="btn btn-primary" value="Send Message" id="send-btn">
+                </div>
+              </form>
+            </div>
         </div>
-
-        <!-- contact form with full name, email, priority level and message body -->
-        <div>
-
-        <div>
-            <h3>Contact Me</h3>
-        </div>
-
-          <form action="">
-            <label for="fullname">Full Name</label><br>  
-            <input type="text" id="fullname" name="fullname" placeholder="John Glue" required><br>
-            
-            <label for="email">Email Address</label><br>  
-            <input type="text" id="email-address" name="email" placeholder="john@theglue.com" required><br>
-  
-            <label for="priority">Choose Priority</label><br>  
-            <select name="Select Priority"  id="priority" required>
-              <option value="zero">Not Urgent</option>
-              <option value="low">Low</option>
-              <option value="medium">Medium</option>
-              <option value="high">High</option>
-              <option value="astro">Astronomical</option>
-            </select><br>
-  
-            <label for="message">Message</label><br>  
-            <input type="text" id="message" name="message" placeholder="Enter text..."><br>
-
-            <!-- Send Message Btn -->
-            <input type="submit" value="Send Message">
-          </form>
-        </div>
+          
       </div>
     </section>
     
@@ -181,13 +183,13 @@
   <!-- Footer -->
   <footer>
 
-    <!-- Logo -->
-    <div>
-      <a href="#"><img src="" alt="logo"></a>
+    <!-- webpage logo-->
+    <div class="logo">
+        <a href="./index.html"><img src="https://github.com/sage-godspeed/image-dump/blob/master/origami-logo.png?raw=true" alt="logo"></a>
     </div>
-    
+
     <!-- "Scroll to the Top" trigger -->
-    <a href="#">Scroll to Top</a>
+    <a href="#" class="top">Scroll to Top</a>
   
   </footer>
     </div>
