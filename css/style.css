@@ -5,7 +5,6 @@
     padding: 0;
 }
 
-
 /* visual helper class */
 .scaffold {
     border: 0.5px red solid;
@@ -46,6 +45,17 @@ a {
     margin: 16px;
     padding: 8px;
     color: #272832;
+}
+.heading {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: px;
+    margin-bottom: 24px;
+    padding: 8px;
+    color: #272832; 
 }
 
 /* button styling */
@@ -274,7 +284,7 @@ li > a:hover {
     font-size: 14px;
 }
 .contact {
-    background-color: #FDB87D;
+    background-color: #FFCEA4;
     min-height: 600px;
 }
 /* contact me form styling */
@@ -370,3 +380,63 @@ footer .top {
     margin: 24px;
     padding-left: 80%;
 }
+
+/* auth pages */
+main .container-box {
+    margin: auto;
+    min-height: 100%;
+    color: #fff;
+}
+
+/* calculator page */
+#calc-page {
+    padding-top: 8%;
+}
+
+/* html table calculator styling */
+/* calculator box styling */
+.calc{
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F8F8F8;
+  }
+  /* table rules */
+  table{
+    width: 100%;
+  }
+  td{
+    width: 30%;
+  }
+  /* calculator display */
+  .display{
+    font-size: 24px;
+    padding: 16px 5px;
+    width: 100%;
+    border: 2px solid #FF8364;
+    border-radius: 4px;
+    background-color: #F8F8F8;
+  }
+  /* styling rules for the table elements */
+   .calc-box{
+    padding: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    border: none;
+    border-radius: 3px;
+    background-color: #F2F2F2;
+    width: 100%;
+  }
+  /* calculator specific button styling */
+  .equal{
+    background-color: #FF8364;
+    color: #fff;
+  }
+  .clear{
+    background-color: #272832;
+    color: #fff;
+  }
+  

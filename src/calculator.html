@@ -3,21 +3,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auth - Sign In</title>
-    <link rel="shortcut icon" type="image/jpg" href="./favicon.ico"/>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>HTML Table Calculator</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <script src="https://use.fontawesome.com/e77062d6d5.js"></script>
 </head>
 <body>
      <!--navigation bar-->     
      <header class="navigation">
       <!-- webpage logo-->
       <div class="logo">
-        <a href="./index.html"><img src="https://github.com/sage-godspeed/image-dump/blob/master/origami-logo.png?raw=true" alt="logo"></a>
+        <a href="../index.html"><img src="https://github.com/sage-godspeed/image-dump/blob/master/origami-logo.png?raw=true" alt="logo"></a>
       </div>
 
       <!-- navigation bar -->
@@ -33,17 +30,50 @@
   </header>
   
 <!-- main content -->
-    <main class="container-box">
-      <section class="contact">
-  
-       
+    <main class="container-box" >
+      <section class="contact" id="calc-page">
+
+        <div class="calc">
+            
+              <input type="text" class="display">
+              <table>
+                <tr>
+                  <td><input type="button" value="7" class="calc-box"></td>
+                  <td><input type="button" value="8" class="calc-box"></td>
+                  <td><input type="button" value="9" class="calc-box"></td>
+                  <td><input type="button" value="%" class="calc-box"></td>
+                </tr>
+                <tr>
+                  <td><input type="button" value="4" class="calc-box"></td>
+                  <td><input type="button" value="5" class="calc-box"></td>
+                  <td><input type="button" value="6" class="calc-box"></td>
+                  <td><input type="button" value="/" class="calc-box"></td>
+                </tr>
+                <tr>
+                  <td><input type="button" value="1" class="calc-box"></td>
+                  <td><input type="button" value="2" class="calc-box"></td>
+                  <td><input type="button" value="3" class="calc-box"></td>
+                  <td><input type="button" value="x" class="calc-box"></td>
+                </tr>
+                <tr>
+                  <td><input type="button" value="&radic;" class="calc-box grey"></td>
+                  <td><input type="button" value="0" class="calc-box grey"></td>
+                  <td><input type="button" value="." class="calc-box"></td>
+                  <td><input type="button" value="-" class="calc-box"></td>
+                </tr>
+                <tr>
+                  <td><input type="button" value="C" class="calc-box clear white-text"></td>
+                  <td colspan="2"><input type="button" value="=" class="calc-box equal white-text"></td>
+                  <td><input type="button" value="+" class="calc-box"></td>
+                </tr>
+              </table>
+            </div>
       </section>
       </main>
 
        
     <!-- Footer -->
   <footer>
-
   
   </footer>
         
